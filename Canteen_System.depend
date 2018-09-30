@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1538076152 source:c:\users\salika\desktop\new folder\codeblocks programs\canteen_system\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1538114716 source:c:\users\salika\desktop\new folder\codeblocks programs\canteen_system\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1538074178 source:c:\users\salika\desktop\new folder\codeblocks programs\canteen_system\billing.c
+	<stdio.h>
+	<stdlib.h>
+
+1538074191 source:c:\users\salika\desktop\new folder\codeblocks programs\canteen_system\daily_earnings.c
+	<stdio.h>
+	<stdlib.h>
+
