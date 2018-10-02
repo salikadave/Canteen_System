@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+int n;
 struct menu_item
 {
     int item_code;
@@ -46,14 +47,15 @@ void menu()
 void add_item()
 {
     printf("\n IN add item function");
-    printf("Enter no. of items to be added.");
+    printf("\n Enter no. of items to be added.");
     scanf("%d",&n);
-    printf("\n Please enter item name: ");
-    int i=1,n;
+    int i=1;
     //scanf("%[^\n]%*c",item_list[1].item_name);
     //scanf("%s",item_list[1].item_name);
     do{
+    item_list[i].item_code = i;
     fflush(stdin);
+    printf("\n Please enter item name: ");
     gets(item_list[i].item_name);
     printf("\n Enter cost of this item per unit:");
     scanf("%f",&item_list[i].cost);
@@ -74,7 +76,7 @@ void display_item(int n)
 {
     int i=1;
     do{
-    printf("\n Item name: %s Cost: %f",item_list[i].item_name,item_list[i].cost);
+    printf("\n Item Code: %d Item name: %s Cost: %f",item_list[i].item_code,item_list[i].item_name,item_list[i].cost);
     i++;
     }while(i<=n);
     printf("\n Press any key to continue");
