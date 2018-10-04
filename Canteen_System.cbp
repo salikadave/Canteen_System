@@ -31,12 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Billing.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Daily_Earnings.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="Menu.c">
 			<Option compilerVar="CC" />
 		</Unit>
