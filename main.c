@@ -1,11 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-void menu();
+#include "Menu.h"
 //void billing();
 //void daily_earnings();
-int main()
+int main(void)
 {
     int option;
+    /*
+    FILE *fp;
+    fp = fopen("Menu_1.txt","w");
+    if(!fgetc(fp)){
+
+    if(fp==NULL){
+        printf("\n Error in opening file");
+    }
+    fprintf(fp,"\n Item Code \t \t Item Name \t \t Item Cost \t \t");
+    }
+    fclose(fp);
+    */
     do
     {
         system("CLS");
